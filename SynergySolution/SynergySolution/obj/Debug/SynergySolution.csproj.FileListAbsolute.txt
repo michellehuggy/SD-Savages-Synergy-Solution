@@ -1,0 +1,347 @@
+F:\SynergySolution\SynergySolution\bin\ApplicationInsights.config
+F:\SynergySolution\SynergySolution\bin\roslyn\csc.exe
+F:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\SynergySolution\SynergySolution\bin\roslyn\System.Collections.Immutable.dll
+F:\SynergySolution\SynergySolution\bin\roslyn\System.Reflection.Metadata.dll
+F:\SynergySolution\SynergySolution\bin\roslyn\vbc.exe
+F:\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe
+F:\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe.config
+F:\SynergySolution\SynergySolution\bin\SynergySolution.dll.config
+F:\SynergySolution\SynergySolution\bin\SynergySolution.dll
+F:\SynergySolution\SynergySolution\bin\SynergySolution.pdb
+F:\SynergySolution\SynergySolution\bin\Antlr3.Runtime.dll
+F:\SynergySolution\SynergySolution\bin\EntityFramework.dll
+F:\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.Agent.Intercept.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\SynergySolution\SynergySolution\bin\Microsoft.Web.Infrastructure.dll
+F:\SynergySolution\SynergySolution\bin\Newtonsoft.Json.dll
+F:\SynergySolution\SynergySolution\bin\System.Web.Helpers.dll
+F:\SynergySolution\SynergySolution\bin\System.Web.Mvc.dll
+F:\SynergySolution\SynergySolution\bin\System.Web.Optimization.dll
+F:\SynergySolution\SynergySolution\bin\System.Web.Razor.dll
+F:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.dll
+F:\SynergySolution\SynergySolution\bin\System.Web.WebPages.dll
+F:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.dll
+F:\SynergySolution\SynergySolution\bin\WebGrease.dll
+F:\SynergySolution\SynergySolution\bin\EntityFramework.xml
+F:\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.xml
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.xml
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.xml
+F:\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.xml
+F:\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.xml
+F:\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\SynergySolution\SynergySolution\bin\System.Web.Helpers.xml
+F:\SynergySolution\SynergySolution\bin\System.Web.Mvc.xml
+F:\SynergySolution\SynergySolution\bin\System.Web.Optimization.xml
+F:\SynergySolution\SynergySolution\bin\System.Web.Razor.xml
+F:\SynergySolution\SynergySolution\bin\System.Web.WebPages.xml
+F:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.xml
+F:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.xml
+F:\SynergySolution\SynergySolution\bin\Antlr3.Runtime.pdb
+F:\SynergySolution\SynergySolution\bin\Newtonsoft.Json.xml
+F:\SynergySolution\SynergySolution\obj\Debug\SynergySolution.dll
+F:\SynergySolution\SynergySolution\obj\Debug\SynergySolution.pdb
+F:\SynergySolution\SynergySolution\bin\SimpleCrypto.dll
+V:\SynergySolution\SynergySolution\bin\ApplicationInsights.config
+V:\SynergySolution\SynergySolution\bin\roslyn\csc.exe
+V:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+V:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+V:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.dll
+V:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+V:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CSharp.Core.targets
+V:\SynergySolution\SynergySolution\bin\roslyn\Microsoft.VisualBasic.Core.targets
+V:\SynergySolution\SynergySolution\bin\roslyn\System.Collections.Immutable.dll
+V:\SynergySolution\SynergySolution\bin\roslyn\System.Reflection.Metadata.dll
+V:\SynergySolution\SynergySolution\bin\roslyn\vbc.exe
+V:\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe
+V:\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe.config
+V:\SynergySolution\SynergySolution\bin\SynergySolution.dll.config
+V:\SynergySolution\SynergySolution\bin\SynergySolution.dll
+V:\SynergySolution\SynergySolution\bin\SynergySolution.pdb
+V:\SynergySolution\SynergySolution\bin\Antlr3.Runtime.dll
+V:\SynergySolution\SynergySolution\bin\EntityFramework.dll
+V:\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.Agent.Intercept.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.PerfCounterCollector.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+V:\SynergySolution\SynergySolution\bin\Microsoft.Web.Infrastructure.dll
+V:\SynergySolution\SynergySolution\bin\Newtonsoft.Json.dll
+V:\SynergySolution\SynergySolution\bin\SimpleCrypto.dll
+V:\SynergySolution\SynergySolution\bin\System.Web.Helpers.dll
+V:\SynergySolution\SynergySolution\bin\System.Web.Mvc.dll
+V:\SynergySolution\SynergySolution\bin\System.Web.Optimization.dll
+V:\SynergySolution\SynergySolution\bin\System.Web.Razor.dll
+V:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.dll
+V:\SynergySolution\SynergySolution\bin\System.Web.WebPages.dll
+V:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.dll
+V:\SynergySolution\SynergySolution\bin\WebGrease.dll
+V:\SynergySolution\SynergySolution\bin\EntityFramework.xml
+V:\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.xml
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.xml
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.xml
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.xml
+V:\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.xml
+V:\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.xml
+V:\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+V:\SynergySolution\SynergySolution\bin\System.Web.Helpers.xml
+V:\SynergySolution\SynergySolution\bin\System.Web.Mvc.xml
+V:\SynergySolution\SynergySolution\bin\System.Web.Optimization.xml
+V:\SynergySolution\SynergySolution\bin\System.Web.Razor.xml
+V:\SynergySolution\SynergySolution\bin\System.Web.WebPages.xml
+V:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.xml
+V:\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.xml
+V:\SynergySolution\SynergySolution\bin\Antlr3.Runtime.pdb
+V:\SynergySolution\SynergySolution\bin\Newtonsoft.Json.xml
+V:\SynergySolution\SynergySolution\obj\Debug\SynergySolution.csprojResolveAssemblyReference.cache
+V:\SynergySolution\SynergySolution\obj\Debug\SynergySolution.dll
+V:\SynergySolution\SynergySolution\obj\Debug\SynergySolution.pdb
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\ApplicationInsights.config
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\csc.exe
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\vbc.exe
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\SynergySolution.dll.config
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\SynergySolution.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\SynergySolution.pdb
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Antlr3.Runtime.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\EntityFramework.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Newtonsoft.Json.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\SimpleCrypto.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Helpers.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Mvc.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Optimization.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Razor.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.WebPages.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\WebGrease.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\EntityFramework.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Helpers.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Mvc.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Optimization.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.Razor.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.WebPages.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Antlr3.Runtime.pdb
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\bin\Newtonsoft.Json.xml
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\obj\Debug\SynergySolution.csprojResolveAssemblyReference.cache
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\obj\Debug\SynergySolution.dll
+C:\Users\bruno\Downloads\SynergySolution\SynergySolution\obj\Debug\SynergySolution.pdb
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\ApplicationInsights.config
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\csc.exe
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\vbc.exe
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.dll.config
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.pdb
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Antlr3.Runtime.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Newtonsoft.Json.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SimpleCrypto.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Helpers.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Mvc.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Optimization.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Razor.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\WebGrease.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Helpers.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Mvc.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Optimization.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Razor.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Antlr3.Runtime.pdb
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Newtonsoft.Json.xml
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.csprojResolveAssemblyReference.cache
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.dll
+C:\Users\bruno\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.pdb
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\ApplicationInsights.config
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\csc.exe
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\vbc.exe
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.dll.config
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.pdb
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Antlr3.Runtime.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Newtonsoft.Json.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\SimpleCrypto.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Helpers.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Mvc.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Optimization.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Razor.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\WebGrease.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Helpers.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Mvc.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Optimization.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Razor.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Antlr3.Runtime.pdb
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\bin\Newtonsoft.Json.xml
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.csprojResolveAssemblyReference.cache
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.dll
+C:\Users\ALVBRU002\Documents\GitHub\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.pdb
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\ApplicationInsights.config
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\csc.exe
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\System.Collections.Immutable.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\System.Reflection.Metadata.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\vbc.exe
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\roslyn\VBCSCompiler.exe.config
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.dll.config
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\SynergySolution.pdb
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Antlr3.Runtime.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Agent.Intercept.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.Web.Infrastructure.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Newtonsoft.Json.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\SimpleCrypto.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Helpers.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Mvc.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Optimization.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Razor.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\WebGrease.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\EntityFramework.SqlServer.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.DependencyCollector.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.Web.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.AI.WindowsServer.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.ApplicationInsights.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Helpers.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Mvc.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Optimization.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.Razor.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Deployment.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\System.Web.WebPages.Razor.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Antlr3.Runtime.pdb
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\bin\Newtonsoft.Json.xml
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.csprojResolveAssemblyReference.cache
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.dll
+I:\UCT 2017\Synergy-Solution\SynergySolution\SynergySolution\obj\Debug\SynergySolution.pdb

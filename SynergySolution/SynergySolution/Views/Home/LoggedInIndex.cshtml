@@ -1,0 +1,252 @@
+﻿@model SynergySolution.Models.User
+@{
+    ViewBag.Title = "LoggedInIndex";
+}
+
+<<div class="background">
+    <div class="bg"></div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="header-content">
+                <div class="header-content-inner">
+
+                    @*LOG IN FORM*@
+
+                    @using (Html.BeginForm())
+                    {
+                        <div class="jumbotron">
+                            <h2>You are logged in.</h2>
+                        </div>
+                    }
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <section class="bg-primary" id="about">
+            <div class="Layer1">
+                <div class="container">
+                    <div class="row">
+
+
+
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <h2 class="section-heading">We've got what you need!</h2>
+                            <hr class="light">
+                            <p class="text-faded">
+                                E-Bots created eduActiv for teachers to upload proof of activities completed in order to earn their required Continuing Professional Teacher Development(CPTD) points.
+                                The system was built using ASP.NET MVC 5.
+                                The main goal of eduActiv is to allow teachers to record CPTD accredited points by allowing teachers, schools and course providers to upload proof of activities
+
+                                completed (Type 1, Type 2 and Type 3 respectively). Each teacher, school, course provider and SACE representative has their own profile. Access rights
+
+                                for each member is different, therefore, allowing SACE members to view
+                                information that teachers would not be able to view. Uploading any of these activities
+
+                                assigns a teacher CPTD points and participation points (eduActiv’s own point system used for gamification purposes).
+                            </p>
+
+                            <p class="text-faded">
+                                Reports are available for schools to check the performance of their teachers. Reports can also be generated for SACE
+
+                                representatives and course providers to allow feedback from teachers.
+
+                                To make the system more desirable to use, teachers can share activities that
+
+                                they have completed to give others ideas and forum participation is encouraged too. eduActiv notifies teachers who have not used the system for more than a month so that they
+
+                                do not forget to complete their CPTD activities.
+                            </p>
+
+                            <a href="~/Views/Home/About.cshtml" class="btn btn-primary btn-xl">About Us</a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark2" id="portfolio">
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                    <div class="col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="~/Content/Images/portfolio/profile.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Profiles
+                                    </div>
+                                    <div class="project-name">
+                                        See your profile improve and watch your points grow!
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="~/Content/Images/portfolio/profile.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Activities
+                                    </div>
+                                    <div class="project-name">
+                                        Upload Your CPTD Activities onto your eduActiv profile.
+                                    </div>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="~/Content/Images/portfolio/profile.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Leaderboard
+                                    </div>
+                                    <div class="project-name">
+                                        Watch and compare your progress.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="~/Content/Images/portfolio/profile.png" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Share Box
+                                    </div>
+                                    <div class="project-name">
+                                        Share your experiences with other teachers.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="bg-dark">
+            <div class="Layer1" align="left">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">eduActiv Point System</h2>
+                            <hr class="primary">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-6 text-center">
+                            <div class="service-box">
+
+                                <img src="~/Content/Images/cptd.png" alt="cptd" />
+                                <h3>CPTD Points</h3>
+                                <p class="text-muted">
+                                    To enhance teaching in South Africa, teachers will soon have to complete
+                                    Continuing Professional Teacher Development (CPTD) activities. eduActiv is a web-based platform that allows teachers
+                                    an easy opportunity to earn their CPTD points through uploading proof of completion of an activity
+                                    onto the site where points are automatically assigned.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <div class="service-box">
+
+                                <img src="~/Content/Images/participation.png" alt="cptd" />
+                                <h3>Participation Points</h3>
+                                <p class="text-muted">
+                                    Earn participation points on eduActiv by participating in the online environment. Upload your activities to your profile,
+                                    share them with other teachers, and earn points as you go along. Watch your profile grow and improve.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="bg-dark1" id="gamification">
+            <div class="Layer1">
+                <div class="row" align="left">
+                    <h2>A Gamified Experience</h2>
+                    <hr class="primary" align="left">
+                    <p>
+                        Gamification involves taking the things that make games fun and enjoyable and using them in
+                        situations that wouldn’t usually be all that fun or enjoyable. So what makes games fun? It’s things like
+                        points, badges and achievements. The more badges you get, the further up the ‘leaderboard’ you climb,
+                        showing that you’re either doing better or worse than the other people playing the ‘game’. And the more
+                        points you get, the more of an expert you become.
+                    </p>
+
+                    <p>Here are the kinds of things that gamification can be applied to:</p>
+
+                    <div class=".col-xs-6 .col-sm-3">
+                        <h2>Badges</h2>
+
+                        <p>
+                            Badges focus on the positive. To point out what a teacher has done or has accomplished,
+                            first and foremost. The grouping all those specific accomplishments together,
+                            with representative visuals, can really give teachers and schools a clearer picture of who what
+                            is happening during the school day and what learning experiences are taking place.
+
+                        </p>
+                        <div class=".col-xs-6 .col-sm-3 width">
+                            <p>
+                                <img src="~/Content/Images/Rewards/100.png" class="four" alt="badge">
+                                <img src="~/Content/Images/Rewards/Forum.png" class="four" alt="badge">
+                                <img src="~/Content/Images/Rewards/Discount.png" class="four" alt="badge">
+                                <img src="~/Content/Images/Rewards/Environmental.png" class="four" alt="badge">
+                            </p>
+                        </div>
+                    </div>
+                    <br /><br /><br />
+                    <div class=".col-xs-6 .col-sm-3">
+                        <h2><br /><br />Trophies</h2>
+                        <p>Earn your trophy after earning a specified amount of points. Start with bronze and make your way up to gold! </p>
+                        <div class="col-md-6 text-center width">
+                            <img src="~/Content/Images/Rewards/bronze.png" class="three" alt="trophies">
+                            <img src="~/Content/Images/Rewards/silver.png" class="three" alt="trophies">
+                            <img src="~/Content/Images/Rewards/gold.png" class="three" alt="trophies">
+                        </div>
+                    </div>
+                    <br /><br /><br /><br /><br /><br /><br />
+                    <div class=".col-xs-6 .col-sm-3">
+                        <h2>Leaderboard</h2>
+                        <p>Measure your progress against other teachers and schools. See your position on a leaderboard.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                &copy; @DateTime.Now.Year -
+                <img src="~/Content/Images/ebotsLogoNewName.png" alt="ebots" width="170" />
+            </p>
+        </footer>
+    </div>
+</div>
+
