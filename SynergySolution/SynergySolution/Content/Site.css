@@ -127,26 +127,26 @@ textarea[id="Reflection"]{
 
 .bg{
      position: fixed;
-     background-image: url(Images/background1.jpg);  
+     background-image: url(Images/SB3.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     width: 100%;
-     min-height: 100%;
+    min-height: 100%;
     text-align: center;
     display:table;
-   top: 25px;
-   left:0px;
+    top: 25px;
+    left:0px;
 }
 .content{
      position: relative;
      left:0px;
-    right:0px;
-       min-height:35em;
-       padding-right: 40px;
-    padding-left: 40px;
+     right:0px;
+     min-height:35em;
+     padding-right: 40px;
+     padding-left: 40px;
 }
 
 
@@ -243,7 +243,6 @@ header .header-content .header-content-inner p {
     /*height:100%;*/
      margin-top:-6em;
            min-height:660px;
-    background-image: url(Images/background1.jpg);  
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -369,7 +368,7 @@ display: block;
     line-height: 1.5;
     color: inherit;
     /*background-color: #181515;*/
-    background-color: RGBa(77, 166, 255,0.75);
+    background-color: RGBa(1, 28, 228,0.65);
     width: 35%;
     -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -407,28 +406,27 @@ display: block;
     padding-top:1em;
 }
 @media screen and (max-width: 1200px) {
-  .jumbotron {
-
-   margin-top: 15%;
-   text-align:left;
-  /*margin-top:0.1em;*/
-  /*top:0.2em;*/
-  margin-left:26%;
-  padding: 20px;
-  margin-bottom: 15%;
-  font-size: 1em;
-  /*font-weight: 200;*/
-  line-height: 1.5;
-  color: inherit;
-  /*background-color: #181515;*/
-  background-color: RGBa(77, 166, 255,0.75);
-  width:50%;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  top:4em;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  }
+    .jumbotron {
+        margin-top: 15%;
+        text-align: left;
+        /*margin-top:0.1em;*/
+        /*top:0.2em;*/
+        margin-left: 26%;
+        padding: 20px;
+        margin-bottom: 15%;
+        font-size: 1em;
+        /*font-weight: 200;*/
+        line-height: 1.5;
+        color: inherit;
+        /*background-color: #181515;*/
+        background-color: background-color: RGBa(1, 28, 228,0.65);
+        width: 50%;
+        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        top: 4em;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
   .container .jumbotron {
   border-radius: 75px;
     padding: 20px;
@@ -452,30 +450,27 @@ display: block;
 }
 
 @media screen and (max-width: 768px) {
-  .jumbotron {
-
-   margin-top:20%;
-   text-align:left;
-  /*margin-top:0.1em;*/
-  /*top:0.2em;*/
-  margin-left:13%;
-  padding: 20px;
-  margin-bottom: 20%;
-  font-size: 1em;
-  /*font-weight: 200;*/
-  line-height: 1.5;
-  color: inherit;
-  /*background-color: #181515;*/
-  background-color: RGBa(77, 166, 255,0.75);
-  width:75%;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-   /*top:4em;
+    .jumbotron {
+        margin-top: 20%;
+        text-align: left;
+        /*margin-top:0.1em;*/
+        /*top:0.2em;*/
+        margin-left: 13%;
+        padding: 20px;
+        margin-bottom: 20%;
+        font-size: 1em;
+        /*font-weight: 200;*/
+        line-height: 1.5;
+        color: inherit;
+        /*background-color: #181515;*/
+        background-color: RGBa(1, 28, 228,0.65);
+        width: 75%;
+        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        /*top:4em;
    padding-top: 18px;
    padding-bottom: 18px;*/
-
-
-  }
+    }
   .container .jumbotron {
   border-radius: 75px;
     padding: 20px;
@@ -936,15 +931,6 @@ white-space: normal;
   }
 }
 
-
-
-
-
-
-
-
-
-
 .flipInX {
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
@@ -962,7 +948,6 @@ white-space: normal;
 
 .logo{
     width:8%;
-
 }
 
 
@@ -978,8 +963,6 @@ iframe{
 }
 
 .center{
-    margin-right:12%;
-    margin-left:14%;
     width: 100%;
     text-align:center;
     
@@ -1547,12 +1530,12 @@ line-height:16.2px;
 
 
     #logoImage{
-        margin-top:-20px;
-        margin-left:75px;
-        width:235px;
+        margin-top:-30px;
+        width:200px;
         height:130px;
         margin-bottom:-60px;
         float:left;
+        position: relative;
     }
 .mainHead{
     font-size: 30px;

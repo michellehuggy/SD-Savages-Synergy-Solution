@@ -399,6 +399,12 @@
     <Content Include="Content\Images\Rewards\Recommendations.png" />
     <Content Include="Content\Images\Rewards\silver.png" />
     <Content Include="Content\Images\Rewards\silverdark.png" />
+    <Content Include="Content\Images\SB.jpg" />
+    <Content Include="Content\Images\SB2.jpg" />
+    <Content Include="Content\Images\SB3.jpg" />
+    <Content Include="Content\Images\SB4.png" />
+    <Content Include="Content\Images\Standard-Bank-logo.png" />
+    <Content Include="Content\Images\StandardBankLogo.jpg" />
     <Content Include="Content\Images\step 2.png" />
     <Content Include="Content\Images\step1.png" />
     <Content Include="Content\Images\teenactiv.png" />
