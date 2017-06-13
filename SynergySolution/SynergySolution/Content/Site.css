@@ -131,7 +131,7 @@ textarea[id="Reflection"]{
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: contain;
     -o-background-size: cover;
     width: 100%;
     min-height: 100%;
@@ -1539,4 +1539,10 @@ line-height:16.2px;
     }
 .mainHead{
     font-size: 30px;
+}
+.unselect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;     
 }
