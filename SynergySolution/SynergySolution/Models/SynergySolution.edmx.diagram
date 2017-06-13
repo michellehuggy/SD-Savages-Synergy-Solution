@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3bdbadb86bd041c1808b10fa1e29696d" Name="Diagram1">
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.AdminInfo" Width="1.5" PointX="8" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.AdminLogin" Width="1.5" PointX="5.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.AgileTeam" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.AgileTeamMemberDetail" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.Designation" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.EmployInfo" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.EmployLogin" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="FeedbackSystem_dbModel.EmplyDesignation" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="FeedbackSystem_dbModel.FK__AdminInfo__login__239E4DCF" ManuallyRouted="false" />
+        <AssociationConnector Association="FeedbackSystem_dbModel.FK__AgileTeam__teamI__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="FeedbackSystem_dbModel.FK__AgileTeam__emplo__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="FeedbackSystem_dbModel.FK__EmplyDesi__desig__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="FeedbackSystem_dbModel.FK__EmployInf__login__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="FeedbackSystem_dbModel.FK__EmplyDesi__emplo__286302EC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,41 @@
+﻿@model SynergySolution.Models.AgileTeam
+
+@{
+    ViewBag.Title = "AddCompany";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<h4 style="text-align:center">Add Team</h4>
+<br />
+
+@using (Html.BeginForm("AddTeam","Admin",FormMethod.Post)) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal col-lg-offset-4 col-lg-4" >
+     
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("Team Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.teamName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.teamName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Team Description", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.teamDescription, new { rows = "12", cols = "8", @class = "form-control"  })
+                @Html.ValidationMessageFor(model => model.teamDescription, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+

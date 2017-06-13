@@ -162,54 +162,61 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AdminsController.cs" />
-    <Compile Include="Controllers\AgileTeamMembersController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LineManagersController.cs" />
-    <Compile Include="Controllers\ShareholdersController.cs" />
-    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\AgileTeamsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Admin.cs">
-      <DependentUpon>SynergySolutionModel.tt</DependentUpon>
+    <Compile Include="ModelHelper\AddTeamMemberList .cs" />
+    <Compile Include="ModelHelper\AgileTeamMemberList.cs" />
+    <Compile Include="ModelHelper\EditTeamClass.cs" />
+    <Compile Include="ModelHelper\EmployeeInfodetail.cs" />
+    <Compile Include="ModelHelper\LineMemberList.cs" />
+    <Compile Include="Models\AdminInfo.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\AgileTeamMember.cs">
-      <DependentUpon>SynergySolutionModel.tt</DependentUpon>
+    <Compile Include="Models\AdminLogin.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\LineManager.cs">
-      <DependentUpon>SynergySolutionModel.tt</DependentUpon>
+    <Compile Include="Models\AgileTeam.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Shareholder.cs">
-      <DependentUpon>SynergySolutionModel.tt</DependentUpon>
+    <Compile Include="Models\AgileTeamMemberDetail.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\SynergySolutionModel.Context.cs">
+    <Compile Include="Models\Designation.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmployInfo.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmployLogin.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmplyDesignation.cs">
+      <DependentUpon>SynergySolution.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SynergySolution.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SynergySolutionModel.Context.tt</DependentUpon>
+      <DependentUpon>SynergySolution.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\SynergySolutionModel.cs">
+    <Compile Include="Models\SynergySolution.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SynergySolutionModel.tt</DependentUpon>
+      <DependentUpon>SynergySolution.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\SynergySolutionModel.Designer.cs">
+    <Compile Include="Models\SynergySolution.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SynergySolutionModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Team.cs">
-      <DependentUpon>SynergySolutionModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\User.cs">
-      <DependentUpon>SynergySolutionModel.tt</DependentUpon>
+      <DependentUpon>SynergySolution.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\SynergySolution.mdf" />
-    <Content Include="App_Data\SynergySolution_log.ldf">
-      <DependentUpon>SynergySolution.mdf</DependentUpon>
+    <Content Include="App_Data\FeedbackSystem_db.mdf" />
+    <Content Include="App_Data\FeedbackSystem_db_log.ldf">
+      <DependentUpon>FeedbackSystem_db.mdf</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap-datetimepicker.css" />
     <Content Include="Content\bootstrap-datetimepicker.min.css" />
@@ -413,15 +420,15 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Models\SynergySolutionModel.Context.tt">
+    <Content Include="Models\SynergySolution.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SynergySolutionModel.edmx</DependentUpon>
-      <LastGenOutput>SynergySolutionModel.Context.cs</LastGenOutput>
+      <DependentUpon>SynergySolution.edmx</DependentUpon>
+      <LastGenOutput>SynergySolution.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\SynergySolutionModel.tt">
+    <Content Include="Models\SynergySolution.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SynergySolutionModel.edmx</DependentUpon>
-      <LastGenOutput>SynergySolutionModel.cs</LastGenOutput>
+      <DependentUpon>SynergySolution.edmx</DependentUpon>
+      <LastGenOutput>SynergySolution.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -430,12 +437,12 @@
     </Content>
     <Content Include="Content\Images\Help\user Guide New.docx" />
     <Content Include="Content\Images\ProfilePictures\E-Bots_Milestone_2 %281%29.docx" />
-    <EntityDeploy Include="Models\SynergySolutionModel.edmx">
+    <EntityDeploy Include="Models\SynergySolution.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SynergySolutionModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>SynergySolution.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\SynergySolutionModel.edmx.diagram">
-      <DependentUpon>SynergySolutionModel.edmx</DependentUpon>
+    <Content Include="Models\SynergySolution.edmx.diagram">
+      <DependentUpon>SynergySolution.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -461,20 +468,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\User\Create.cshtml" />
     <Content Include="Views\User\Delete.cshtml" />
     <Content Include="Views\User\Details.cshtml" />
     <Content Include="Views\User\Edit.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
-    <Content Include="Views\Home\LoggedInIndex.cshtml" />
-    <Content Include="Views\Home\Login.cshtml" />
-    <Content Include="Views\Home\LogOut.cshtml" />
-    <Content Include="Views\Home\NotAuthorised.cshtml" />
-    <Content Include="Views\Home\NotLoggedIn.cshtml" />
-    <Content Include="Views\Home\Success.cshtml" />
     <Content Include="Views\AgileTeamMembers\Create.cshtml" />
     <Content Include="Views\AgileTeamMembers\Delete.cshtml" />
     <Content Include="Views\AgileTeamMembers\Details.cshtml" />
@@ -490,11 +488,24 @@
     <Content Include="Views\Shareholders\Details.cshtml" />
     <Content Include="Views\Shareholders\Edit.cshtml" />
     <Content Include="Views\Shareholders\Index.cshtml" />
-    <Content Include="Views\Admins\Create.cshtml" />
-    <Content Include="Views\Admins\Delete.cshtml" />
-    <Content Include="Views\Admins\Details.cshtml" />
-    <Content Include="Views\Admins\Edit.cshtml" />
-    <Content Include="Views\Admins\Index.cshtml" />
+    <Content Include="Views\Admin\AddCompany.cshtml" />
+    <Content Include="Views\Admin\AddDesigination.cshtml" />
+    <Content Include="Views\Admin\AddEmployee.cshtml" />
+    <Content Include="Views\Admin\DeleteEmployee.cshtml" />
+    <Content Include="Views\Admin\DeleteTeam.cshtml" />
+    <Content Include="Views\Admin\EditEmployee.cshtml" />
+    <Content Include="Views\Admin\EditTeam.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Admin\ShowAllTeams.cshtml" />
+    <Content Include="Views\Admin\ShowEmplyee.cshtml" />
+    <Content Include="Views\Admin\ShowTeam.cshtml" />
+    <Content Include="Views\Shared\_status3.cshtml" />
+    <Content Include="Views\Shared\_DeleteTeamMember.cshtml" />
+    <Content Include="Views\Shared\_DeleteLineMan.cshtml" />
+    <Content Include="Views\Shared\_adminLayout.cshtml" />
+    <Content Include="Views\Shared\_AddTeamMember.cshtml" />
+    <Content Include="Views\Shared\_AddLineManager.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

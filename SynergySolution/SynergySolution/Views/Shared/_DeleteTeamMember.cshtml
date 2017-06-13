@@ -1,0 +1,16 @@
+﻿
+
+@model IEnumerable<SynergySolution.ModelHelper.AgileTeamMemberList>
+<table style="max-width:25%">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.name
+            </td>
+            <td>
+                <button type="button" onclick="removerTeamId(@item.employId)">Remove</button>
+            </td>
+        </tr>
+    }
+</table>

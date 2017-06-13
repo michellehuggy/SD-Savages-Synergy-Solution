@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FeedbackSystem_dbModelStoreContainer" CdmEntityContainer="SDSavagesEntities">
+    <EntitySetMapping Name="AdminInfoes">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AdminInfo">
+        <MappingFragment StoreEntitySet="AdminInfo">
+          <ScalarProperty Name="adminId" ColumnName="adminId" />
+          <ScalarProperty Name="fName" ColumnName="fName" />
+          <ScalarProperty Name="lName" ColumnName="lName" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="loginId" ColumnName="loginId" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdminLogins">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AdminLogin">
+        <MappingFragment StoreEntitySet="AdminLogin">
+          <ScalarProperty Name="loginId" ColumnName="loginId" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pasword" ColumnName="pasword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AgileTeams">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AgileTeam">
+        <MappingFragment StoreEntitySet="AgileTeam">
+          <ScalarProperty Name="teamId" ColumnName="teamId" />
+          <ScalarProperty Name="teamName" ColumnName="teamName" />
+          <ScalarProperty Name="teamDescription" ColumnName="teamDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AgileTeamMemberDetails">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AgileTeamMemberDetail">
+        <MappingFragment StoreEntitySet="AgileTeamMemberDetail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="teamId" ColumnName="teamId" />
+          <ScalarProperty Name="employId" ColumnName="employId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Designations">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.Designation">
+        <MappingFragment StoreEntitySet="Designation">
+          <ScalarProperty Name="designationId" ColumnName="designationId" />
+          <ScalarProperty Name="designationName" ColumnName="designationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployInfoes">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.EmployInfo">
+        <MappingFragment StoreEntitySet="EmployInfo">
+          <ScalarProperty Name="employId" ColumnName="employId" />
+          <ScalarProperty Name="fName" ColumnName="fName" />
+          <ScalarProperty Name="lName" ColumnName="lName" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="loginId" ColumnName="loginId" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployLogins">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.EmployLogin">
+        <MappingFragment StoreEntitySet="EmployLogin">
+          <ScalarProperty Name="loginId" ColumnName="loginId" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pasword" ColumnName="pasword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmplyDesignations">
+      <EntityTypeMapping TypeName="FeedbackSystem_dbModel.EmplyDesignation">
+        <MappingFragment StoreEntitySet="EmplyDesignation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="employId" ColumnName="employId" />
+          <ScalarProperty Name="designationId" ColumnName="designationId" />
+          <ScalarProperty Name="isPartOfTeam" ColumnName="isPartOfTeam" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

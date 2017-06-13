@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FeedbackSystem_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AdminInfo">
+          <Key>
+            <PropertyRef Name="adminId" />
+          </Key>
+          <Property Name="adminId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fName" Type="nvarchar" MaxLength="255" />
+          <Property Name="lName" Type="nvarchar" MaxLength="255" />
+          <Property Name="phone" Type="nvarchar" MaxLength="20" />
+          <Property Name="dob" Type="datetime2" Precision="7" />
+          <Property Name="loginId" Type="int" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AdminLogin">
+          <Key>
+            <PropertyRef Name="loginId" />
+          </Key>
+          <Property Name="loginId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="75" />
+          <Property Name="pasword" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="AgileTeam">
+          <Key>
+            <PropertyRef Name="teamId" />
+          </Key>
+          <Property Name="teamId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="teamName" Type="nvarchar" MaxLength="255" />
+          <Property Name="teamDescription" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="AgileTeamMemberDetail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="teamId" Type="int" Nullable="false" />
+          <Property Name="employId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Designation">
+          <Key>
+            <PropertyRef Name="designationId" />
+          </Key>
+          <Property Name="designationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="designationName" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="EmployInfo">
+          <Key>
+            <PropertyRef Name="employId" />
+          </Key>
+          <Property Name="employId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fName" Type="nvarchar" MaxLength="255" />
+          <Property Name="lName" Type="nvarchar" MaxLength="255" />
+          <Property Name="phone" Type="nvarchar" MaxLength="20" />
+          <Property Name="dob" Type="datetime2" Precision="7" />
+          <Property Name="loginId" Type="int" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EmployLogin">
+          <Key>
+            <PropertyRef Name="loginId" />
+          </Key>
+          <Property Name="loginId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="75" />
+          <Property Name="pasword" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="EmplyDesignation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="employId" Type="int" Nullable="false" />
+          <Property Name="designationId" Type="int" Nullable="false" />
+          <Property Name="isPartOfTeam" Type="bit" />
+        </EntityType>
+        <Association Name="FK__AdminInfo__login__239E4DCF">
+          <End Role="AdminLogin" Type="Self.AdminLogin" Multiplicity="1" />
+          <End Role="AdminInfo" Type="Self.AdminInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AdminLogin">
+              <PropertyRef Name="loginId" />
+            </Principal>
+            <Dependent Role="AdminInfo">
+              <PropertyRef Name="loginId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__AgileTeam__emplo__24927208">
+          <End Role="EmployInfo" Type="Self.EmployInfo" Multiplicity="1" />
+          <End Role="AgileTeamMemberDetail" Type="Self.AgileTeamMemberDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EmployInfo">
+              <PropertyRef Name="employId" />
+            </Principal>
+            <Dependent Role="AgileTeamMemberDetail">
+              <PropertyRef Name="employId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__AgileTeam__teamI__25869641">
+          <End Role="AgileTeam" Type="Self.AgileTeam" Multiplicity="1" />
+          <End Role="AgileTeamMemberDetail" Type="Self.AgileTeamMemberDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AgileTeam">
+              <PropertyRef Name="teamId" />
+            </Principal>
+            <Dependent Role="AgileTeamMemberDetail">
+              <PropertyRef Name="teamId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EmployInf__login__267ABA7A">
+          <End Role="EmployLogin" Type="Self.EmployLogin" Multiplicity="1" />
+          <End Role="EmployInfo" Type="Self.EmployInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EmployLogin">
+              <PropertyRef Name="loginId" />
+            </Principal>
+            <Dependent Role="EmployInfo">
+              <PropertyRef Name="loginId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EmplyDesi__desig__276EDEB3">
+          <End Role="Designation" Type="Self.Designation" Multiplicity="1" />
+          <End Role="EmplyDesignation" Type="Self.EmplyDesignation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Designation">
+              <PropertyRef Name="designationId" />
+            </Principal>
+            <Dependent Role="EmplyDesignation">
+              <PropertyRef Name="designationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EmplyDesi__emplo__286302EC">
+          <End Role="EmployInfo" Type="Self.EmployInfo" Multiplicity="1" />
+          <End Role="EmplyDesignation" Type="Self.EmplyDesignation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EmployInfo">
+              <PropertyRef Name="employId" />
+            </Principal>
+            <Dependent Role="EmplyDesignation">
+              <PropertyRef Name="employId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FeedbackSystem_dbModelStoreContainer">
+          <EntitySet Name="AdminInfo" EntityType="Self.AdminInfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AdminLogin" EntityType="Self.AdminLogin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AgileTeam" EntityType="Self.AgileTeam" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AgileTeamMemberDetail" EntityType="Self.AgileTeamMemberDetail" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Designation" EntityType="Self.Designation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EmployInfo" EntityType="Self.EmployInfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EmployLogin" EntityType="Self.EmployLogin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EmplyDesignation" EntityType="Self.EmplyDesignation" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__AdminInfo__login__239E4DCF" Association="Self.FK__AdminInfo__login__239E4DCF">
+            <End Role="AdminLogin" EntitySet="AdminLogin" />
+            <End Role="AdminInfo" EntitySet="AdminInfo" />
+          </AssociationSet>
+          <AssociationSet Name="FK__AgileTeam__emplo__24927208" Association="Self.FK__AgileTeam__emplo__24927208">
+            <End Role="EmployInfo" EntitySet="EmployInfo" />
+            <End Role="AgileTeamMemberDetail" EntitySet="AgileTeamMemberDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK__AgileTeam__teamI__25869641" Association="Self.FK__AgileTeam__teamI__25869641">
+            <End Role="AgileTeam" EntitySet="AgileTeam" />
+            <End Role="AgileTeamMemberDetail" EntitySet="AgileTeamMemberDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EmployInf__login__267ABA7A" Association="Self.FK__EmployInf__login__267ABA7A">
+            <End Role="EmployLogin" EntitySet="EmployLogin" />
+            <End Role="EmployInfo" EntitySet="EmployInfo" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EmplyDesi__desig__276EDEB3" Association="Self.FK__EmplyDesi__desig__276EDEB3">
+            <End Role="Designation" EntitySet="Designation" />
+            <End Role="EmplyDesignation" EntitySet="EmplyDesignation" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EmplyDesi__emplo__286302EC" Association="Self.FK__EmplyDesi__emplo__286302EC">
+            <End Role="EmployInfo" EntitySet="EmployInfo" />
+            <End Role="EmplyDesignation" EntitySet="EmplyDesignation" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FeedbackSystem_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AdminInfo">
+          <Key>
+            <PropertyRef Name="adminId" />
+          </Key>
+          <Property Name="adminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="lName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="dob" Type="DateTime" Precision="7" />
+          <Property Name="loginId" Type="Int32" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AdminLogin" Relationship="Self.FK__AdminInfo__login__239E4DCF" FromRole="AdminInfo" ToRole="AdminLogin" />
+        </EntityType>
+        <EntityType Name="AdminLogin">
+          <Key>
+            <PropertyRef Name="loginId" />
+          </Key>
+          <Property Name="loginId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" MaxLength="75" FixedLength="false" Unicode="true" />
+          <Property Name="pasword" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AdminInfoes" Relationship="Self.FK__AdminInfo__login__239E4DCF" FromRole="AdminLogin" ToRole="AdminInfo" />
+        </EntityType>
+        <EntityType Name="AgileTeam">
+          <Key>
+            <PropertyRef Name="teamId" />
+          </Key>
+          <Property Name="teamId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="teamName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="teamDescription" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AgileTeamMemberDetails" Relationship="Self.FK__AgileTeam__teamI__25869641" FromRole="AgileTeam" ToRole="AgileTeamMemberDetail" />
+        </EntityType>
+        <EntityType Name="AgileTeamMemberDetail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="teamId" Type="Int32" Nullable="false" />
+          <Property Name="employId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="AgileTeam" Relationship="Self.FK__AgileTeam__teamI__25869641" FromRole="AgileTeamMemberDetail" ToRole="AgileTeam" />
+          <NavigationProperty Name="EmployInfo" Relationship="Self.FK__AgileTeam__emplo__24927208" FromRole="AgileTeamMemberDetail" ToRole="EmployInfo" />
+        </EntityType>
+        <EntityType Name="Designation">
+          <Key>
+            <PropertyRef Name="designationId" />
+          </Key>
+          <Property Name="designationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="designationName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EmplyDesignations" Relationship="Self.FK__EmplyDesi__desig__276EDEB3" FromRole="Designation" ToRole="EmplyDesignation" />
+        </EntityType>
+        <EntityType Name="EmployInfo">
+          <Key>
+            <PropertyRef Name="employId" />
+          </Key>
+          <Property Name="employId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="lName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="dob" Type="DateTime" Precision="7" />
+          <Property Name="loginId" Type="Int32" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="AgileTeamMemberDetails" Relationship="Self.FK__AgileTeam__emplo__24927208" FromRole="EmployInfo" ToRole="AgileTeamMemberDetail" />
+          <NavigationProperty Name="EmployLogin" Relationship="Self.FK__EmployInf__login__267ABA7A" FromRole="EmployInfo" ToRole="EmployLogin" />
+          <NavigationProperty Name="EmplyDesignations" Relationship="Self.FK__EmplyDesi__emplo__286302EC" FromRole="EmployInfo" ToRole="EmplyDesignation" />
+        </EntityType>
+        <EntityType Name="EmployLogin">
+          <Key>
+            <PropertyRef Name="loginId" />
+          </Key>
+          <Property Name="loginId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" MaxLength="75" FixedLength="false" Unicode="true" />
+          <Property Name="pasword" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="EmployInfoes" Relationship="Self.FK__EmployInf__login__267ABA7A" FromRole="EmployLogin" ToRole="EmployInfo" />
+        </EntityType>
+        <EntityType Name="EmplyDesignation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="employId" Type="Int32" Nullable="false" />
+          <Property Name="designationId" Type="Int32" Nullable="false" />
+          <Property Name="isPartOfTeam" Type="Boolean" />
+          <NavigationProperty Name="Designation" Relationship="Self.FK__EmplyDesi__desig__276EDEB3" FromRole="EmplyDesignation" ToRole="Designation" />
+          <NavigationProperty Name="EmployInfo" Relationship="Self.FK__EmplyDesi__emplo__286302EC" FromRole="EmplyDesignation" ToRole="EmployInfo" />
+        </EntityType>
+        <Association Name="FK__AdminInfo__login__239E4DCF">
+          <End Role="AdminLogin" Type="Self.AdminLogin" Multiplicity="1" />
+          <End Role="AdminInfo" Type="Self.AdminInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AdminLogin">
+              <PropertyRef Name="loginId" />
+            </Principal>
+            <Dependent Role="AdminInfo">
+              <PropertyRef Name="loginId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__AgileTeam__teamI__25869641">
+          <End Role="AgileTeam" Type="Self.AgileTeam" Multiplicity="1" />
+          <End Role="AgileTeamMemberDetail" Type="Self.AgileTeamMemberDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AgileTeam">
+              <PropertyRef Name="teamId" />
+            </Principal>
+            <Dependent Role="AgileTeamMemberDetail">
+              <PropertyRef Name="teamId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__AgileTeam__emplo__24927208">
+          <End Role="EmployInfo" Type="Self.EmployInfo" Multiplicity="1" />
+          <End Role="AgileTeamMemberDetail" Type="Self.AgileTeamMemberDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EmployInfo">
+              <PropertyRef Name="employId" />
+            </Principal>
+            <Dependent Role="AgileTeamMemberDetail">
+              <PropertyRef Name="employId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EmplyDesi__desig__276EDEB3">
+          <End Role="Designation" Type="Self.Designation" Multiplicity="1" />
+          <End Role="EmplyDesignation" Type="Self.EmplyDesignation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Designation">
+              <PropertyRef Name="designationId" />
+            </Principal>
+            <Dependent Role="EmplyDesignation">
+              <PropertyRef Name="designationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EmployInf__login__267ABA7A">
+          <End Role="EmployLogin" Type="Self.EmployLogin" Multiplicity="1" />
+          <End Role="EmployInfo" Type="Self.EmployInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EmployLogin">
+              <PropertyRef Name="loginId" />
+            </Principal>
+            <Dependent Role="EmployInfo">
+              <PropertyRef Name="loginId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EmplyDesi__emplo__286302EC">
+          <End Role="EmployInfo" Type="Self.EmployInfo" Multiplicity="1" />
+          <End Role="EmplyDesignation" Type="Self.EmplyDesignation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EmployInfo">
+              <PropertyRef Name="employId" />
+            </Principal>
+            <Dependent Role="EmplyDesignation">
+              <PropertyRef Name="employId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SDSavagesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AdminInfoes" EntityType="Self.AdminInfo" />
+          <EntitySet Name="AdminLogins" EntityType="Self.AdminLogin" />
+          <EntitySet Name="AgileTeams" EntityType="Self.AgileTeam" />
+          <EntitySet Name="AgileTeamMemberDetails" EntityType="Self.AgileTeamMemberDetail" />
+          <EntitySet Name="Designations" EntityType="Self.Designation" />
+          <EntitySet Name="EmployInfoes" EntityType="Self.EmployInfo" />
+          <EntitySet Name="EmployLogins" EntityType="Self.EmployLogin" />
+          <EntitySet Name="EmplyDesignations" EntityType="Self.EmplyDesignation" />
+          <AssociationSet Name="FK__AdminInfo__login__239E4DCF" Association="Self.FK__AdminInfo__login__239E4DCF">
+            <End Role="AdminLogin" EntitySet="AdminLogins" />
+            <End Role="AdminInfo" EntitySet="AdminInfoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__AgileTeam__teamI__25869641" Association="Self.FK__AgileTeam__teamI__25869641">
+            <End Role="AgileTeam" EntitySet="AgileTeams" />
+            <End Role="AgileTeamMemberDetail" EntitySet="AgileTeamMemberDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__AgileTeam__emplo__24927208" Association="Self.FK__AgileTeam__emplo__24927208">
+            <End Role="EmployInfo" EntitySet="EmployInfoes" />
+            <End Role="AgileTeamMemberDetail" EntitySet="AgileTeamMemberDetails" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EmplyDesi__desig__276EDEB3" Association="Self.FK__EmplyDesi__desig__276EDEB3">
+            <End Role="Designation" EntitySet="Designations" />
+            <End Role="EmplyDesignation" EntitySet="EmplyDesignations" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EmployInf__login__267ABA7A" Association="Self.FK__EmployInf__login__267ABA7A">
+            <End Role="EmployLogin" EntitySet="EmployLogins" />
+            <End Role="EmployInfo" EntitySet="EmployInfoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EmplyDesi__emplo__286302EC" Association="Self.FK__EmplyDesi__emplo__286302EC">
+            <End Role="EmployInfo" EntitySet="EmployInfoes" />
+            <End Role="EmplyDesignation" EntitySet="EmplyDesignations" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FeedbackSystem_dbModelStoreContainer" CdmEntityContainer="SDSavagesEntities">
+          <EntitySetMapping Name="AdminInfoes">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AdminInfo">
+              <MappingFragment StoreEntitySet="AdminInfo">
+                <ScalarProperty Name="adminId" ColumnName="adminId" />
+                <ScalarProperty Name="fName" ColumnName="fName" />
+                <ScalarProperty Name="lName" ColumnName="lName" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="dob" ColumnName="dob" />
+                <ScalarProperty Name="loginId" ColumnName="loginId" />
+                <ScalarProperty Name="email" ColumnName="email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AdminLogins">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AdminLogin">
+              <MappingFragment StoreEntitySet="AdminLogin">
+                <ScalarProperty Name="loginId" ColumnName="loginId" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="pasword" ColumnName="pasword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AgileTeams">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AgileTeam">
+              <MappingFragment StoreEntitySet="AgileTeam">
+                <ScalarProperty Name="teamId" ColumnName="teamId" />
+                <ScalarProperty Name="teamName" ColumnName="teamName" />
+                <ScalarProperty Name="teamDescription" ColumnName="teamDescription" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AgileTeamMemberDetails">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.AgileTeamMemberDetail">
+              <MappingFragment StoreEntitySet="AgileTeamMemberDetail">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="teamId" ColumnName="teamId" />
+                <ScalarProperty Name="employId" ColumnName="employId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Designations">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.Designation">
+              <MappingFragment StoreEntitySet="Designation">
+                <ScalarProperty Name="designationId" ColumnName="designationId" />
+                <ScalarProperty Name="designationName" ColumnName="designationName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EmployInfoes">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.EmployInfo">
+              <MappingFragment StoreEntitySet="EmployInfo">
+                <ScalarProperty Name="employId" ColumnName="employId" />
+                <ScalarProperty Name="fName" ColumnName="fName" />
+                <ScalarProperty Name="lName" ColumnName="lName" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="dob" ColumnName="dob" />
+                <ScalarProperty Name="loginId" ColumnName="loginId" />
+                <ScalarProperty Name="email" ColumnName="email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EmployLogins">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.EmployLogin">
+              <MappingFragment StoreEntitySet="EmployLogin">
+                <ScalarProperty Name="loginId" ColumnName="loginId" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="pasword" ColumnName="pasword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EmplyDesignations">
+            <EntityTypeMapping TypeName="FeedbackSystem_dbModel.EmplyDesignation">
+              <MappingFragment StoreEntitySet="EmplyDesignation">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="employId" ColumnName="employId" />
+                <ScalarProperty Name="designationId" ColumnName="designationId" />
+                <ScalarProperty Name="isPartOfTeam" ColumnName="isPartOfTeam" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<SynergySolution.ModelHelper.EditTeamClass>
+
+@{
+    ViewBag.Title = "ShowAllTeams";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<h2>Show All Teams</h2>
+
+
+<table class="table" border="1">
+    <tr>
+        <th>
+            @Html.DisplayName("Team Name")
+        </th>
+        <th>
+            @Html.DisplayName("Employee Name")
+        </th>
+        <th>
+            @Html.DisplayName("Designation")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.teamName)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.employName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.employDesignation)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "DeleteMemberFromTeam", new { teamId = item.teamId, employId = item.employId })
+        </td>
+    </tr>
+}
+
+</table>
